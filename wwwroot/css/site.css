@@ -1,0 +1,42 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('marble_18.jpg');
+    center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flow-root;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+      color: #555;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+}
+
+    .navbar a {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        text-decoration: none;
+        margin: 0 15px;
+        transition: transform 0.1s; /* Adaugă o tranziție pentru efectul de mărire */
+    }
