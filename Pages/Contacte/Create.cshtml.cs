@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using AplicatieProiect.Data;
 using AplicatieProiect.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AplicatieProiect.Pages.Contacte
 {
+    [Authorize(Roles = "Admin")]
     public class CreateModel : PageModel
     {
         private readonly AplicatieProiect.Data.AplicatieProiectContext _context;
